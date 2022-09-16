@@ -26,7 +26,7 @@ public class ShoppingController {
 	@GetMapping("/user_login")
 	public Object user_login()
 	{
-		log.info("======User login controller=====");
+		log.info("<<<<<< User login controller >>>>>");
 		
 			return online_shoppingService.user_login();
 	}
